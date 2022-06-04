@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "838511806412",
+    "project_id": "reto-peliculas",
+    "storage_bucket": "reto-peliculas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838511806412:android:4add38d4ca006d2ca47f69",
+        "android_client_info": {
+          "package_name": "com.example.dmovfirebasereto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "838511806412-9bjbvt26vocabs6mddoo0ba3j2r1lv9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_MsS7vlDTH6-dyLVvbm1MX_A_qBbYhIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "838511806412-9bjbvt26vocabs6mddoo0ba3j2r1lv9o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
