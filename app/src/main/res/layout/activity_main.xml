@@ -132,6 +132,30 @@
 
 
     <TextView
+        android:id="@+id/tvtagId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID:"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/tvTitle"
+        app:layout_constraintBottom_toTopOf="@+id/tvtagYear"
+        app:layout_constraintTop_toBottomOf="@id/btnBuscar"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NumID"
+        android:textSize="20sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/tvtagTitle"
+        app:layout_constraintBottom_toTopOf="@+id/tvYear"
+        app:layout_constraintTop_toBottomOf="@id/btnBuscar"
+        ></TextView>
+
+    <TextView
         android:id="@+id/tvtagTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -140,7 +164,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/tvTitle"
         app:layout_constraintBottom_toTopOf="@+id/tvtagYear"
-        app:layout_constraintTop_toBottomOf="@id/btnBuscar"
+        app:layout_constraintTop_toBottomOf="@id/tvtagId"
         ></TextView>
 
     <TextView
@@ -152,7 +176,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toRightOf="@id/tvtagTitle"
         app:layout_constraintBottom_toTopOf="@+id/tvYear"
-        app:layout_constraintTop_toBottomOf="@id/btnBuscar"
+        app:layout_constraintTop_toBottomOf="@id/tvId"
         ></TextView>
 
     <TextView

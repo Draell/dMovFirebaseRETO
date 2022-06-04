@@ -49,6 +49,7 @@ private lateinit var binding: ActivityMainBinding
             myRef.child("Peliculas").child(valor).get().addOnSuccessListener { record ->
                 val json = JSONObject(record.value.toString())
                 Log.d("ValoresFirebase", "got value ${record.value}")
+                binding.tvId.setText(json.getString("id").toString())
                 binding.tvTitle.setText(json.getString("title").toString())
                 binding.tvYear.setText(json.getString("year").toString())
                 binding.tvimdbID.setText(json.getString("imdbID").toString())
